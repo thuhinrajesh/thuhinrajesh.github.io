@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thuhin Khanna - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Thuhin Khanna</h1>
+        <h6></h6>
+        <h2><i>"May the force be with you"</i></h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="docs/resume.html">Resume</a>
+            <a href="docs/projects.html">Projects</a>
+            <a href="docs/publications.html">Publications</a>
+            <a href="docs/contactme.html">Contact Me</a>
+        </nav>
+    </header>
+    <script>
+        let str = "Welcome!";
+        let replacements = ["Welcome!", "Bienvenue!", "வனக்கம்!"];
+        let index = 0;
+        const interval = setInterval(() => {
+        str = replacements[index];
+	  document.getElementById("greetings").innerHTML=str;
+        index = (index + 1) % replacements.length; // Cycle through replacements
+        }, 1000); // Replace every 1 second
+    </script>
+    <div class="container">
+        <h2 id="greetings" >Welcome!</h2>
+        <p>This is the corner of the internet where I showcase and document my work. Stroll through the sections using the hyperlinks in the header above. Pleased to make you acquaintance \(^.^)/</p>
+    </div>
+    <div class="container">
+        <h2>About</h2>
+        <p>There should be two or three lines of text here. Should've used the place holder but I am too lazy to switch to a search window now so I am typing this. Is it three lines yet? cause it feels like the place holder would've been an easier option now. Time to check.</p>
+    </div>
+    <div class="container">
+        <h2>Project Images Carousel (left)</h2>
+        <p>There should be two or three lines of text here. Should've used the place holder but I am too lazy to switch to a search window now so I am typing this. Is it three lines yet? cause it feels like the place holder would've been an easier option now. Time to check.</p>
+    </div>
+    <div class="container">
+        <h2>BI Visuals & Dashboards Carousel (right)</h2>
+        <p>There should be two or three lines of text here. Should've used the place holder but I am too lazy to switch to a search window now so I am typing this. Is it three lines yet? cause it feels like the place holder would've been an easier option now. Time to check.</p>
+    </div>
+    <footer>
+        <p>&copy; 2025 Thuhin Khanna</p>
+    </footer>
+</body>
+</html>
