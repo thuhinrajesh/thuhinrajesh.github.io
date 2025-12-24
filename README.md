@@ -1,2 +1,3 @@
-# thuhinkhanna.github.io
-Thuhin Khanna's Portfolio Website
+# My Portfolio
+
+The corner of the internet where I document and showcase my work.
